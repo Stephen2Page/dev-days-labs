@@ -4,4 +4,14 @@
              x:Class="DevDaysSpeakers.View.DetailsPage"
              Title="Details">
 
+	  <ScrollView Padding="10">
+    	<StackLayout Spacing="10">
+     		<!-- Detail controls here -->
+			<Image Source="{Binding Avatar}" HeightRequest="200" WidthRequest="200"/>
+
+			<Label Text="{Binding Name}" FontSize="24"/>
+			<Label Text="{Binding Title}" TextColor="Purple"/>
+			<Label Text="{Binding Description}"/>
+    	</StackLayout>    
+  </ScrollView>
 </ContentPage>
