@@ -12,6 +12,9 @@
 			<Label Text="{Binding Name}" FontSize="24"/>
 			<Label Text="{Binding Title}" TextColor="Purple"/>
 			<Label Text="{Binding Description}"/>
+
+			<Button Text="Speak" x:Name="ButtonSpeak"/>
+			<Button Text="Go to Website" x:Name="ButtonWebsite"/>
     	</StackLayout>    
   </ScrollView>
 </ContentPage>
