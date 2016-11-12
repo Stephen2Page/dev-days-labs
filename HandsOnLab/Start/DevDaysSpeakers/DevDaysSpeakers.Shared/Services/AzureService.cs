@@ -70,5 +70,12 @@ namespace DevDaysSpeakers.Services
             }
 
         }
+
+		public async Task UpdateSpeaker(Speaker speaker)
+		{
+			await Initialize();
+			await table.UpdateAsync(speaker);
+			await SyncSpeakers();
+		}
     }
 }

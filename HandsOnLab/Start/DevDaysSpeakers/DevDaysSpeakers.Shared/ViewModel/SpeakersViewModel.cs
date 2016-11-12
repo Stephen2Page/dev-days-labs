@@ -99,6 +99,12 @@ private async Task GetSpeakers()
 				await Application.Current.MainPage.DisplayAlert("Error!", error.Message, "OK");
 		}
 
+		public async Task UpdateSpeaker(Speaker speaker)
+		{
+			var service = DependencyService.Get<AzureService>();
+			service.UpdateSpeaker(speaker);
+			await GetSpeakers();
+		}
 	}
 
 }
