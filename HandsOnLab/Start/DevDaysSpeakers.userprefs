@@ -1,12 +1,14 @@
 ﻿<Properties StartupConfiguration="{367B4F1E-C7D4-432C-B767-59121E12C2BF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DevDaysSpeakers/DevDaysSpeakers.Shared/View/DetailsPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DevDaysSpeakers/DevDaysSpeakers.Shared/ViewModel/SpeakersViewModel.cs">
     <Files>
       <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/Model/Speaker.cs" Line="17" Column="37" />
-      <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/ViewModel/SpeakersViewModel.cs" Line="30" Column="5" />
+      <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/ViewModel/SpeakersViewModel.cs" Line="76" Column="1" />
       <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/View/SpeakersPage.xaml" Line="18" Column="4" />
       <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/View/SpeakersPage.xaml.cs" Line="38" Column="4" />
       <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/View/DetailsPage.xaml" Line="17" Column="4" />
-      <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/View/DetailsPage.xaml.cs" Line="7" Column="21" />
+      <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/View/DetailsPage.xaml.cs" Line="29" Column="1" />
+      <File FileName="DevDaysSpeakers/DevDaysSpeakers.Shared/Services/AzureService.cs" Line="65" Column="63" />
+      <File FileName="DevDaysSpeakers/DevDaysSpeakers.iOS/Main.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
